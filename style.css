@@ -1,0 +1,14 @@
+/*a {
+  text-decoration: none;
+  color: green;
+  font-weight: 900;
+  text-align: center;
+}
+*/
+
+a {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+}
